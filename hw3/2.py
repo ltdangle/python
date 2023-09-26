@@ -5,7 +5,6 @@ palindrome = True
 
 for index in range(len(s)):
     reverse_index = -index - 1
-    print(f"{s[index]} - {s[reverse_index]}")
 
     if s[index] != s[reverse_index]:
         palindrome = False
