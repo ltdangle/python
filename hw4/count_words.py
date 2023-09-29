@@ -3,4 +3,4 @@ def count_words(sentence: str) -> int:
     return len(words)
 
 
-print(count_words("This sentense has five words"))
+print(count_words("Гаррі Поттер (англ. Harry Potter) — серія з семи фантастичних романів англійської письменниці."))
