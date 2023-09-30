@@ -1,3 +1,4 @@
+# 1. Make all these expressions True by adding parentheses:
 # False == not True 
 print(False == (not True))
 # True and False == True and False
