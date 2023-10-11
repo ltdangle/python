@@ -15,6 +15,8 @@ def transaction(amount: int, type: str):
 
     def withdrawal(amount: int):
         new_balance = balance - amount
+        if new_balance < 0:
+            raise ValueError("Not enough money in balance.")
         print(f"Balance: {new_balance}")
 
     if type == "deposit":
